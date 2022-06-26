@@ -16,3 +16,9 @@
     font-size: 1.2rem;
     line-height: normal;
 }
+
+@media screen and (min-width: 1440px) {
+    .destaques__painel-imagem {
+        width: 50vw;
+    }
+}
