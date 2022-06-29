@@ -1,0 +1,47 @@
+:root {
+    --azul-claro: #DFE3E5;
+    --branco: #FFF;
+    --borda-cabecalho-mobile: #103D4A;
+    --bg-chamada-mobile: #00161C;
+    --bg-rodape: #333;
+    --cinza-claro: #F7F4F4;
+    --cinza-escuro: #4F4C4C;
+    --vermelho-forte: #B72E2E;
+    --cinza-medio: #D9D9D9;
+    
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+
+    --planos-cartao-start: #56CCF2;
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+
+    --montserrat: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}

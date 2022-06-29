@@ -1,0 +1,16 @@
+@import url(../sobre/sobre-conteudo.css);
+@import url(../sobre/sobre-imagem.css);
+@import url(../sobre/sobre-plataformas.css);
+@import url(../sobre/sobre-texto.css);
+@import url(../sobre/sobre-titulo.css);
+
+.sobre {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        display: flex;
+    }
+}

@@ -1,0 +1,27 @@
+@import url(../rodape/rodape-link.css);
+@import url(../rodape/rodape-midia.css);
+@import url(../rodape/rodape-nav.css);
+@import url(../rodape/rodape-social.css);
+
+.rodape {
+    align-items: center;
+    background-color: var(--bg-rodape);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .rodape__navegacao {
+        text-align: left;
+
+        min-width: 600px;
+    }
+}

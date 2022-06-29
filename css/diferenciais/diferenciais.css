@@ -1,0 +1,15 @@
+@import url(../diferenciais/diferenciais-item.css);
+@import url(../diferenciais/diferenciais-lista.css);
+@import url(../diferenciais/item/item-texto.css);
+@import url(../diferenciais/item/item-titulo.css);
+
+.diferenciais {
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+}

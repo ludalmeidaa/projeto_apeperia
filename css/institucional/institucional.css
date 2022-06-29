@@ -1,0 +1,16 @@
+@import url(../institucional/institucional-contato.css);
+@import url(../institucional/institucional-conteudo.css);
+@import url(../institucional/institucional-descricao.css);
+@import url(../institucional/institucional-endereco.css);
+@import url(../institucional/institucional-titulo.css);
+@import url(../institucional/institucional-video.css);
+
+.institucional {
+    align-items: center;
+    color: var(--fonte-cinza);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

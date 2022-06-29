@@ -1,0 +1,9 @@
+@import url(../destaques/destaques-botao.css);
+@import url(../destaques/destaques-painel.css);
+@import url(../destaques/destaques-titulo.css);
+
+.destaques {
+    background-color: var(--azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
