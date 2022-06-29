@@ -1,9 +1,0 @@
-@import url(../planos/planos-cartoes.css);
-@import url(../planos/planos-titulo.css);
-@import url(../planos/cartao/cartao.css);
-
-.planos {
-    background-color: var(--cinza-claro);
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
