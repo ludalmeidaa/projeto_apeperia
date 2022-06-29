@@ -1,7 +1,10 @@
 # projeto_apeperia
 Projeto Apeperia realizado no curso de Layouts Responsivos da plataforma Alura.
 
-Aprendizado adquirido com a conclusão do curso:
+# Link do deploy:
+https://projeto-apeperia-one.vercel.app/
+
+# Aprendizado adquirido:
 1. Analisar e desmembrar o layout recebido;
 2. Usar o EMMET para criar blocos de código HTML;
 3. Usar as unidades relativas REM e EM;
